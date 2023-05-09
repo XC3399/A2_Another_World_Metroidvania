@@ -1,31 +1,46 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Unity.VisualScripting;
+
 
 public class enemySpawner : MonoBehaviour
 {
 
-    public GameObject Enemy;
+    public GameObject enemy;
     public int xPos;
     public int zPos;
     public int enemyCount;
 
+    public GameObject newObject;
+    public int num;
+
     // Start is called before the first frame update
     void Start()
     {
-        StartCoroutine (initialSpawn());    
     }
 
-        IEnumerator initialSpawn()
+    private void Update()
+    {
+        enemyCount = (int)Variables.ActiveScene.Get("numOfEnemys");
+
+        StartCoroutine(spawnEnemy());
+
+    }
+
+        IEnumerator spawnEnemy()
         {
-            while (enemyCount < 3)
+            if (enemyCount < 3)
             {
-                xPos = Random.Range (3, 5);
-                zPos = Random.Range (3, 6);
-                Instantiate (Enemy, new Vector3(xPos, 0.4f, zPos), Quaternion.identity);
-                yield return new WaitForSeconds(1.5f);
-                enemyCount += 1;
+                xPos = Random.Range(3, -6);
+                zPos = Random.Range(3, -6);
+                newObject = Instantiate(enemy, new Vector3(xPos, 0.6f, zPos), Quaternion.identity);
+                newObject.name = "name-" + num;
+                num++;
+                yield return new WaitForSeconds(2.5f);
+
             }
+
         }
     
 }
