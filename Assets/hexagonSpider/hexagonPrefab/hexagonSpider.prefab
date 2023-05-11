@@ -2516,12 +2516,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3607207986592488084}
-  - component: {fileID: 3856728281121441299}
   - component: {fileID: 3856728281121441305}
   - component: {fileID: 3856728281121441304}
   - component: {fileID: 3856728281121441309}
   - component: {fileID: 3856728281121441308}
   - component: {fileID: 4629741819602436825}
+  - component: {fileID: 3856728281121441299}
   m_Layer: 0
   m_Name: hexagonSpider
   m_TagString: Enemy
@@ -2553,19 +2553,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!65 &3856728281121441299
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4126616817940316206}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.4544573, y: 0.8583873, z: 1}
-  m_Center: {x: 0.012256384, y: -0.87045586, z: -1.8409295e-15}
 --- !u!95 &3856728281121441305
 Animator:
   serializedVersion: 4
@@ -2654,6 +2641,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.2, y: 1.2, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &3856728281121441299
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4126616817940316206}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.4544573, y: 0.8583873, z: 1}
+  m_Center: {x: 0.012256384, y: -0.87045586, z: -1.8409295e-15}
 --- !u!1 &4157199815480342725
 GameObject:
   m_ObjectHideFlags: 0

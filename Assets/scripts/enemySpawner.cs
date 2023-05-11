@@ -30,7 +30,7 @@ public class enemySpawner : MonoBehaviour
 
         IEnumerator spawnEnemy()
         {
-            if (enemyCount < 3)
+            if (enemyCount < 2)
             {
                 xPos = Random.Range(3, -6);
                 zPos = Random.Range(3, -6);
