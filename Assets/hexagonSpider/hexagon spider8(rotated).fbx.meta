@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: 8313504d7373b1c4eafd990161a2e6c1
+guid: b82bcc954c99af447937c9e858fa3491
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable:
   - first:
       74: -3631973907959442115
-    second: hexagonWalkCycleOld
+    second: hexagonWalkCycle
   - first:
       74: 9107330428009894539
     second: hexagonAttack
@@ -14,30 +14,8 @@ ModelImporter:
     second: hexagonDeath2
   - first:
       74: -8763366864769785468
-    second: idlePoseOld
-  - first:
-      74: -8763366864769785468
     second: idlePose
-  - first:
-      74: -8045650814755580942
-    second: idlePoseOld
-  - first:
-      74: -2603669606447944284
-    second: hexagonDeath2Old
-  - first:
-      74: 4560399199208801025
-    second: hexagonAttackOld
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: grey
-    second: {fileID: 2100000, guid: 96d80ff899dafe7438007c8b7ece7264, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: joints
-    second: {fileID: 2100000, guid: 5b0e89ddc714f3e41bec8161b5b083b5, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -67,11 +45,11 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: hexagonWalkCycleOld
+      name: hexagonWalkCycle
       takeName: hexagonWalkCycle
       internalID: 0
-      firstFrame: 0
-      lastFrame: 35
+      firstFrame: 5
+      lastFrame: 30
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -154,7 +132,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: idlePoseOld
+      name: idlePose
       takeName: idlePose
       internalID: 0
       firstFrame: 0
