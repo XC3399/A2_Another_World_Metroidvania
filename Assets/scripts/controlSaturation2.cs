@@ -21,10 +21,9 @@ public class controlSaturation2 : MonoBehaviour
     {
        bool shifted = (bool)Variables.ActiveScene.Get("shifted");
 
-       // satValue = (float)Variables.Object(hexagonSpider).Get("recentlyKilledEnemy");
 
         ColorAdjustments colorAdjustments; 
-
+        //set grey
         if ( shifted == true)
         {
            if (volume.profile.TryGet<ColorAdjustments>(out colorAdjustments))
@@ -35,6 +34,16 @@ public class controlSaturation2 : MonoBehaviour
 
             }    
         }
-        
+        //set coloured
+        if ( shifted == false)
+        {
+           if (volume.profile.TryGet<ColorAdjustments>(out colorAdjustments))
+            {
+           
+                colorAdjustments.saturation.value =  0;
+
+
+            }    
+        }
     }
 }
