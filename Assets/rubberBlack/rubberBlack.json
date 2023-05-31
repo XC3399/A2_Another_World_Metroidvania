@@ -1,0 +1,590 @@
+{
+    "nodeDatas": [
+        {
+            "location": [
+                10.0,
+                300.0
+            ],
+            "name": "NULL.ShaderNodeBsdfPrincipled.Principled BSDF"
+        },
+        {
+            "location": [
+                300.0,
+                300.0
+            ],
+            "name": "NULL.ShaderNodeOutputMaterial.Material Output"
+        },
+        {
+            "connections0Name": [],
+            "connections0NodeName": [],
+            "connections1Name": [
+                "Color2"
+            ],
+            "connections1NodeName": [
+                "ShaderNodeMixRGB.Mix"
+            ],
+            "location": [
+                -1756.67626953125,
+                318.1813659667969
+            ],
+            "name": "ShaderNodeTexNoise.Noise Texture",
+            "properties": [
+                "3D",
+                "0.0",
+                "40.0",
+                "4.099999904632568",
+                "1.0",
+                "0.0"
+            ]
+        },
+        {
+            "connections0Name": [
+                "Color2"
+            ],
+            "connections0NodeName": [
+                "ShaderNodeMixRGB.Mix.001"
+            ],
+            "location": [
+                -876.7587280273438,
+                190.52838134765625
+            ],
+            "name": "ShaderNodeValToRGB.ColorRamp.006",
+            "properties": [
+                "0.046121180057525635-0.046121180057525635-0.046121180057525635-1.0-0.0|0.3069526255130768-0.3069526255130768-0.3069526255130768-1.0-1.0|",
+                "RGB",
+                "LINEAR",
+                "NEAR",
+                "0.5"
+            ]
+        },
+        {
+            "connections0Name": [],
+            "connections0NodeName": [],
+            "connections1Name": [
+                "Fac"
+            ],
+            "connections1NodeName": [
+                "ShaderNodeValToRGB.ColorRamp.002"
+            ],
+            "connections2Name": [],
+            "connections2NodeName": [],
+            "connections3Name": [],
+            "connections3NodeName": [],
+            "connections4Name": [],
+            "connections4NodeName": [],
+            "location": [
+                -1389.1383056640625,
+                541.0540161132812
+            ],
+            "name": "ShaderNodeTexVoronoi.Voronoi Texture",
+            "properties": [
+                "3D",
+                "F1",
+                "EUCLIDEAN",
+                "0.0",
+                "16.0",
+                "1.0",
+                "0.5",
+                "1.0"
+            ]
+        },
+        {
+            "connections0Name": [],
+            "connections0NodeName": [],
+            "connections1Name": [
+                "Vector"
+            ],
+            "connections1NodeName": [
+                "ShaderNodeMapping.Mapping.002"
+            ],
+            "connections2Name": [],
+            "connections2NodeName": [],
+            "connections3Name": [],
+            "connections3NodeName": [],
+            "connections4Name": [],
+            "connections4NodeName": [],
+            "location": [
+                -2176.5224609375,
+                42.06669616699219
+            ],
+            "name": "ShaderNodeTexCoord.Texture Coordinate.002"
+        },
+        {
+            "connections0Name": [],
+            "connections0NodeName": [],
+            "connections1Name": [
+                "Color2"
+            ],
+            "connections1NodeName": [
+                "ShaderNodeMixRGB.Mix.002"
+            ],
+            "location": [
+                -1721.326416015625,
+                -109.81071472167969
+            ],
+            "name": "ShaderNodeTexNoise.Noise Texture.001",
+            "properties": [
+                "3D",
+                "0.0",
+                "40.0",
+                "4.099999904632568",
+                "1.0",
+                "0.0"
+            ]
+        },
+        {
+            "connections0Name": [
+                "Color1",
+                "Vector"
+            ],
+            "connections0NodeName": [
+                "ShaderNodeMixRGB.Mix.002",
+                "ShaderNodeTexNoise.Noise Texture.001"
+            ],
+            "location": [
+                -1971.351806640625,
+                57.10951232910156
+            ],
+            "name": "ShaderNodeMapping.Mapping.002",
+            "properties": [
+                "POINT",
+                "0.0",
+                "0.0",
+                "0.0",
+                "0.0",
+                "0.0",
+                "0.0",
+                "0.0",
+                "0.0",
+                "-0.00523598724976182",
+                "1.0",
+                "1.0",
+                "1.0"
+            ]
+        },
+        {
+            "connections0Name": [
+                "Fac"
+            ],
+            "connections0NodeName": [
+                "ShaderNodeValToRGB.ColorRamp.007"
+            ],
+            "location": [
+                -1162.3001708984375,
+                -311.6873779296875
+            ],
+            "name": "ShaderNodeValToRGB.ColorRamp.008",
+            "properties": [
+                "0.0-0.0-0.0-1.0-0.0|1.0-1.0-1.0-1.0-0.8727273941040039|",
+                "RGB",
+                "LINEAR",
+                "NEAR",
+                "0.5"
+            ]
+        },
+        {
+            "connections0Name": [],
+            "connections0NodeName": [],
+            "connections1Name": [
+                "Fac"
+            ],
+            "connections1NodeName": [
+                "ShaderNodeValToRGB.ColorRamp.003"
+            ],
+            "connections2Name": [],
+            "connections2NodeName": [],
+            "connections3Name": [],
+            "connections3NodeName": [],
+            "connections4Name": [],
+            "connections4NodeName": [],
+            "location": [
+                -1353.7884521484375,
+                113.06190490722656
+            ],
+            "name": "ShaderNodeTexVoronoi.Voronoi Texture.001",
+            "properties": [
+                "3D",
+                "F1",
+                "EUCLIDEAN",
+                "0.0",
+                "20.0",
+                "1.0",
+                "0.5",
+                "1.0"
+            ]
+        },
+        {
+            "connections0Name": [],
+            "connections0NodeName": [],
+            "connections1Name": [
+                "Vector"
+            ],
+            "connections1NodeName": [
+                "ShaderNodeMapping.Mapping.003"
+            ],
+            "connections2Name": [],
+            "connections2NodeName": [],
+            "connections3Name": [],
+            "connections3NodeName": [],
+            "connections4Name": [],
+            "connections4NodeName": [],
+            "location": [
+                -2176.5224609375,
+                -389.5628662109375
+            ],
+            "name": "ShaderNodeTexCoord.Texture Coordinate.003"
+        },
+        {
+            "connections0Name": [
+                "Vector"
+            ],
+            "connections0NodeName": [
+                "ShaderNodeTexVoronoi.Voronoi Texture.002"
+            ],
+            "location": [
+                -1545.6439208984375,
+                -391.44439697265625
+            ],
+            "name": "ShaderNodeMixRGB.Mix.003",
+            "properties": [
+                "MIX",
+                "False",
+                "0.05000000074505806",
+                "0.5",
+                "0.5",
+                "0.5",
+                "1.0",
+                "0.5",
+                "0.5",
+                "0.5",
+                "1.0"
+            ]
+        },
+        {
+            "connections0Name": [
+                "Color2"
+            ],
+            "connections0NodeName": [
+                "ShaderNodeMixRGB.Mix.004"
+            ],
+            "location": [
+                -876.7587280273438,
+                -241.1011199951172
+            ],
+            "name": "ShaderNodeValToRGB.ColorRamp.007",
+            "properties": [
+                "0.04609021171927452-0.041149817407131195-0.026058051735162735-1.0-0.0|0.3069526255130768-0.2759495675563812-0.24223169684410095-1.0-1.0|",
+                "RGB",
+                "LINEAR",
+                "NEAR",
+                "0.5"
+            ]
+        },
+        {
+            "connections0Name": [],
+            "connections0NodeName": [],
+            "connections1Name": [
+                "Vector"
+            ],
+            "connections1NodeName": [
+                "ShaderNodeMapping.Mapping.001"
+            ],
+            "connections2Name": [],
+            "connections2NodeName": [],
+            "connections3Name": [],
+            "connections3NodeName": [],
+            "connections4Name": [],
+            "connections4NodeName": [],
+            "location": [
+                -2211.872314453125,
+                470.05877685546875
+            ],
+            "name": "ShaderNodeTexCoord.Texture Coordinate.001"
+        },
+        {
+            "connections0Name": [
+                "Color1",
+                "Vector"
+            ],
+            "connections0NodeName": [
+                "ShaderNodeMixRGB.Mix",
+                "ShaderNodeTexNoise.Noise Texture"
+            ],
+            "location": [
+                -2006.70166015625,
+                485.1015930175781
+            ],
+            "name": "ShaderNodeMapping.Mapping.001",
+            "properties": [
+                "POINT",
+                "0.0",
+                "0.0",
+                "0.0",
+                "0.0",
+                "0.0",
+                "0.0",
+                "0.0",
+                "0.0",
+                "-0.00523598724976182",
+                "1.0",
+                "1.0",
+                "1.0"
+            ]
+        },
+        {
+            "connections0Name": [
+                "Vector"
+            ],
+            "connections0NodeName": [
+                "ShaderNodeTexVoronoi.Voronoi Texture"
+            ],
+            "location": [
+                -1580.9937744140625,
+                468.1772155761719
+            ],
+            "name": "ShaderNodeMixRGB.Mix",
+            "properties": [
+                "MIX",
+                "False",
+                "0.05000000074505806",
+                "0.5",
+                "0.5",
+                "0.5",
+                "1.0",
+                "0.5",
+                "0.5",
+                "0.5",
+                "1.0"
+            ]
+        },
+        {
+            "connections0Name": [
+                "Fac"
+            ],
+            "connections0NodeName": [
+                "ShaderNodeValToRGB.ColorRamp.006"
+            ],
+            "location": [
+                -1162.3001708984375,
+                119.94215393066406
+            ],
+            "name": "ShaderNodeValToRGB.ColorRamp.003",
+            "properties": [
+                "0.0-0.0-0.0-1.0-0.0|1.0-1.0-1.0-1.0-0.8727273941040039|",
+                "RGB",
+                "LINEAR",
+                "NEAR",
+                "0.5"
+            ]
+        },
+        {
+            "connections0Name": [],
+            "connections0NodeName": [],
+            "connections1Name": [
+                "Fac"
+            ],
+            "connections1NodeName": [
+                "ShaderNodeValToRGB.ColorRamp.008"
+            ],
+            "connections2Name": [],
+            "connections2NodeName": [],
+            "connections3Name": [],
+            "connections3NodeName": [],
+            "connections4Name": [],
+            "connections4NodeName": [],
+            "location": [
+                -1353.7884521484375,
+                -318.567626953125
+            ],
+            "name": "ShaderNodeTexVoronoi.Voronoi Texture.002",
+            "properties": [
+                "3D",
+                "F1",
+                "EUCLIDEAN",
+                "0.0",
+                "30.0",
+                "1.0",
+                "0.5",
+                "1.0"
+            ]
+        },
+        {
+            "connections0Name": [],
+            "connections0NodeName": [],
+            "connections1Name": [
+                "Color2"
+            ],
+            "connections1NodeName": [
+                "ShaderNodeMixRGB.Mix.003"
+            ],
+            "location": [
+                -1721.326416015625,
+                -541.4402465820312
+            ],
+            "name": "ShaderNodeTexNoise.Noise Texture.002",
+            "properties": [
+                "3D",
+                "0.0",
+                "40.0",
+                "4.099999904632568",
+                "1.0",
+                "0.0"
+            ]
+        },
+        {
+            "connections0Name": [
+                "Fac"
+            ],
+            "connections0NodeName": [
+                "ShaderNodeValToRGB.ColorRamp.005"
+            ],
+            "location": [
+                -1197.6500244140625,
+                547.9342651367188
+            ],
+            "name": "ShaderNodeValToRGB.ColorRamp.002",
+            "properties": [
+                "0.0-0.0-0.0-1.0-0.0|1.0-1.0-1.0-1.0-1.0|",
+                "RGB",
+                "LINEAR",
+                "NEAR",
+                "0.5"
+            ]
+        },
+        {
+            "connections0Name": [
+                "Color1"
+            ],
+            "connections0NodeName": [
+                "ShaderNodeMixRGB.Mix.004"
+            ],
+            "location": [
+                -546.2753295898438,
+                404.3520812988281
+            ],
+            "name": "ShaderNodeMixRGB.Mix.001",
+            "properties": [
+                "OVERLAY",
+                "False",
+                "0.6000000238418579",
+                "0.5",
+                "0.5",
+                "0.5",
+                "1.0",
+                "0.5",
+                "0.5",
+                "0.5",
+                "1.0"
+            ]
+        },
+        {
+            "connections0Name": [
+                "Color1",
+                "Vector"
+            ],
+            "connections0NodeName": [
+                "ShaderNodeMixRGB.Mix.003",
+                "ShaderNodeTexNoise.Noise Texture.002"
+            ],
+            "location": [
+                -1971.351806640625,
+                -374.52001953125
+            ],
+            "name": "ShaderNodeMapping.Mapping.003",
+            "properties": [
+                "POINT",
+                "0.0",
+                "0.0",
+                "0.0",
+                "0.0",
+                "0.0",
+                "0.0",
+                "0.0",
+                "0.0",
+                "-0.00523598724976182",
+                "1.0",
+                "1.0",
+                "1.0"
+            ]
+        },
+        {
+            "connections0Name": [
+                "Vector"
+            ],
+            "connections0NodeName": [
+                "ShaderNodeTexVoronoi.Voronoi Texture.001"
+            ],
+            "location": [
+                -1545.6439208984375,
+                40.18513488769531
+            ],
+            "name": "ShaderNodeMixRGB.Mix.002",
+            "properties": [
+                "MIX",
+                "False",
+                "0.05000000074505806",
+                "0.5",
+                "0.5",
+                "0.5",
+                "1.0",
+                "0.5",
+                "0.5",
+                "0.5",
+                "1.0"
+            ]
+        },
+        {
+            "connections0Name": [
+                "Base Color"
+            ],
+            "connections0NodeName": [
+                "ShaderNodeBsdfPrincipled.Principled BSDF"
+            ],
+            "location": [
+                -302.7664794921875,
+                267.1626281738281
+            ],
+            "name": "ShaderNodeMixRGB.Mix.004",
+            "properties": [
+                "OVERLAY",
+                "False",
+                "0.6000000238418579",
+                "0.5",
+                "0.5",
+                "0.5",
+                "1.0",
+                "0.5",
+                "0.5",
+                "0.5",
+                "1.0"
+            ]
+        },
+        {
+            "connections0Name": [
+                "Color1"
+            ],
+            "connections0NodeName": [
+                "ShaderNodeMixRGB.Mix.001"
+            ],
+            "location": [
+                -877.2627563476562,
+                512.2657470703125
+            ],
+            "name": "ShaderNodeValToRGB.ColorRamp.005",
+            "properties": [
+                "0.006283747032284737-0.006283747032284737-0.006283747032284737-1.0-0.0|0.18478015065193176-0.18478015065193176-0.18478015065193176-1.0-1.0|",
+                "RGB",
+                "LINEAR",
+                "NEAR",
+                "0.5"
+            ]
+        },
+        {
+            "name": "EXTRA",
+            "properties": [
+                "True",
+                "True"
+            ]
+        }
+    ]
+}
