@@ -9,6 +9,8 @@ TagManager:
   - playerHitArea
   - enemyHitArea
   - button
+  - metal
+  - dirt
   layers:
   - Default
   - TransparentFX
