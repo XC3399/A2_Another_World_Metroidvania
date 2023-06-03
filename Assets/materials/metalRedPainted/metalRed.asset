@@ -16,22 +16,9 @@ MonoBehaviour:
   position: {x: -2670.0117, y: 375.1317}
   ports:
     keys:
-    - sFloatFac
     - Result
+    - sFloatFac
     values:
-    - _fieldName: sFloatFac
-      _node: {fileID: -7639892599929745119}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      _nodePortType: float
-      connections:
-      - fieldName: out_color
-        node: {fileID: -5131818884563589079}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 1
-      _typeConstraint: 0
-      _dynamic: 0
     - _fieldName: Result
       _node: {fileID: -7639892599929745119}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
@@ -42,6 +29,16 @@ MonoBehaviour:
         node: {fileID: -4338315804832337721}
         reroutePoints: []
       _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: sFloatFac
+      _node: {fileID: -7639892599929745119}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      _nodePortType: 
+      connections: []
+      _direction: 0
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
@@ -86,64 +83,14 @@ MonoBehaviour:
   position: {x: -3640.8735, y: 6.334831}
   ports:
     keys:
-    - sVector
-    - sLocation
-    - sRotation
-    - sScale
     - Result
     values:
-    - _fieldName: sVector
-      _node: {fileID: -6821671694308902052}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      _nodePortType: vector3
-      connections:
-      - fieldName: oUV
-        node: {fileID: 5758827237456487698}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 1
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: sLocation
-      _node: {fileID: -6821671694308902052}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      _nodePortType: vector3
-      connections: []
-      _direction: 0
-      _connectionType: 1
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: sRotation
-      _node: {fileID: -6821671694308902052}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      _nodePortType: vector3
-      connections: []
-      _direction: 0
-      _connectionType: 1
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: sScale
-      _node: {fileID: -6821671694308902052}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      _nodePortType: vector3
-      connections: []
-      _direction: 0
-      _connectionType: 1
-      _typeConstraint: 0
-      _dynamic: 0
     - _fieldName: Result
       _node: {fileID: -6821671694308902052}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       _nodePortType: vector3
       connections:
-      - fieldName: sColor1
-        node: {fileID: -2652597128706693060}
-        reroutePoints: []
       - fieldName: sVector
         node: {fileID: 5604682293697271978}
         reroutePoints: []
@@ -181,44 +128,18 @@ MonoBehaviour:
   ports:
     keys:
     - sFac
+    - out_color
     - sColor1
     - sColor2
-    - out_color
     values:
     - _fieldName: sFac
       _node: {fileID: -5268735393416437162}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      _nodePortType: float
+      _nodePortType: 
       connections: []
       _direction: 0
-      _connectionType: 1
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: sColor1
-      _node: {fileID: -5268735393416437162}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      _nodePortType: vector4
-      connections:
-      - fieldName: out_color
-        node: {fileID: -5108549353196572501}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 1
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: sColor2
-      _node: {fileID: -5268735393416437162}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      _nodePortType: vector4
-      connections:
-      - fieldName: Result
-        node: {fileID: -4338315804832337721}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 1
+      _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
     - _fieldName: out_color
@@ -231,6 +152,26 @@ MonoBehaviour:
         node: {fileID: 6485789087455679598}
         reroutePoints: []
       _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: sColor1
+      _node: {fileID: -5268735393416437162}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      _nodePortType: 
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: sColor2
+      _node: {fileID: -5268735393416437162}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      _nodePortType: 
+      connections: []
+      _direction: 0
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
@@ -271,16 +212,16 @@ MonoBehaviour:
   ports:
     keys:
     - sW
-    - sVector
-    - sScale
     - sSmoothness
     - sExponent
-    - sRandomness
     - out_distance
     - out_color
     - out_position
     - out_w
     - out_radius
+    - sVector
+    - sScale
+    - sRandomness
     values:
     - _fieldName: sW
       _node: {fileID: -5131818884563589079}
@@ -290,29 +231,6 @@ MonoBehaviour:
       connections: []
       _direction: 0
       _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: sVector
-      _node: {fileID: -5131818884563589079}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      _nodePortType: vector3
-      connections:
-      - fieldName: out_color
-        node: {fileID: 4071617249745488685}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 1
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: sScale
-      _node: {fileID: -5131818884563589079}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      _nodePortType: float
-      connections: []
-      _direction: 0
-      _connectionType: 1
       _typeConstraint: 0
       _dynamic: 0
     - _fieldName: sSmoothness
@@ -333,16 +251,6 @@ MonoBehaviour:
       connections: []
       _direction: 0
       _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: sRandomness
-      _node: {fileID: -5131818884563589079}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      _nodePortType: float
-      connections: []
-      _direction: 0
-      _connectionType: 1
       _typeConstraint: 0
       _dynamic: 0
     - _fieldName: out_distance
@@ -398,6 +306,36 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
+    - _fieldName: sVector
+      _node: {fileID: -5131818884563589079}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      _nodePortType: 
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: sScale
+      _node: {fileID: -5131818884563589079}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      _nodePortType: 
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: sRandomness
+      _node: {fileID: -5131818884563589079}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      _nodePortType: 
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
   useCustomColor: 0
   nodeColor: {r: 0.8, g: 0.8, b: 0.8, a: 1}
   nodeLabel: 
@@ -437,44 +375,18 @@ MonoBehaviour:
   ports:
     keys:
     - sFac
+    - out_color
     - sColor1
     - sColor2
-    - out_color
     values:
     - _fieldName: sFac
       _node: {fileID: -5108549353196572501}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      _nodePortType: float
+      _nodePortType: 
       connections: []
       _direction: 0
-      _connectionType: 1
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: sColor1
-      _node: {fileID: -5108549353196572501}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      _nodePortType: vector4
-      connections:
-      - fieldName: Result
-        node: {fileID: 7039965049505887478}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 1
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: sColor2
-      _node: {fileID: -5108549353196572501}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      _nodePortType: vector4
-      connections:
-      - fieldName: Result
-        node: {fileID: -284731044448286270}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 1
+      _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
     - _fieldName: out_color
@@ -487,6 +399,26 @@ MonoBehaviour:
         node: {fileID: -5268735393416437162}
         reroutePoints: []
       _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: sColor1
+      _node: {fileID: -5108549353196572501}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      _nodePortType: 
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: sColor2
+      _node: {fileID: -5108549353196572501}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      _nodePortType: 
+      connections: []
+      _direction: 0
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
@@ -526,22 +458,9 @@ MonoBehaviour:
   position: {x: -2327.3618, y: 304.5454}
   ports:
     keys:
-    - sFloatFac
     - Result
+    - sFloatFac
     values:
-    - _fieldName: sFloatFac
-      _node: {fileID: -4338315804832337721}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      _nodePortType: float
-      connections:
-      - fieldName: Result
-        node: {fileID: -7639892599929745119}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 1
-      _typeConstraint: 0
-      _dynamic: 0
     - _fieldName: Result
       _node: {fileID: -4338315804832337721}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
@@ -552,6 +471,16 @@ MonoBehaviour:
         node: {fileID: -5268735393416437162}
         reroutePoints: []
       _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: sFloatFac
+      _node: {fileID: -4338315804832337721}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      _nodePortType: 
+      connections: []
+      _direction: 0
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
@@ -596,26 +525,35 @@ MonoBehaviour:
   position: {x: -3383.2627, y: -254.73706}
   ports:
     keys:
-    - sFac
     - sW
-    - sDetail
-    - sRough
     - sDistort
-    - sVector
+    - sRough
+    - sDetail
+    - sFac
     - Result
     - Result_Col
     values:
-    - _fieldName: sFac
+    - _fieldName: sW
       _node: {fileID: -4058400464666635468}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      _nodePortType: float
+      _nodePortType: 
       connections: []
       _direction: 0
-      _connectionType: 1
+      _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-    - _fieldName: sW
+    - _fieldName: sDistort
+      _node: {fileID: -4058400464666635468}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      _nodePortType: 
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: sRough
       _node: {fileID: -4058400464666635468}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
@@ -629,43 +567,20 @@ MonoBehaviour:
       _node: {fileID: -4058400464666635468}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      _nodePortType: float
+      _nodePortType: 
       connections: []
       _direction: 0
-      _connectionType: 1
+      _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-    - _fieldName: sRough
+    - _fieldName: sFac
       _node: {fileID: -4058400464666635468}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      _nodePortType: float
+      _nodePortType: 
       connections: []
       _direction: 0
-      _connectionType: 1
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: sDistort
-      _node: {fileID: -4058400464666635468}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      _nodePortType: float
-      connections: []
-      _direction: 0
-      _connectionType: 1
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: sVector
-      _node: {fileID: -4058400464666635468}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      _nodePortType: vector3
-      connections:
-      - fieldName: Result
-        node: {fileID: -972717757907489961}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 1
+      _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
     - _fieldName: Result
@@ -683,10 +598,7 @@ MonoBehaviour:
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       _nodePortType: vector4
-      connections:
-      - fieldName: sColor2
-        node: {fileID: 6228118395340802519}
-        reroutePoints: []
+      connections: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
@@ -725,11 +637,8 @@ MonoBehaviour:
   ports:
     keys:
     - sW
-    - sVector
-    - sScale
     - sSmoothness
     - sExponent
-    - sRandomness
     - out_distance
     - out_color
     - out_position
@@ -744,29 +653,6 @@ MonoBehaviour:
       connections: []
       _direction: 0
       _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: sVector
-      _node: {fileID: -3188901079895547124}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      _nodePortType: vector3
-      connections:
-      - fieldName: out_color
-        node: {fileID: -2652597128706693060}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 1
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: sScale
-      _node: {fileID: -3188901079895547124}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      _nodePortType: float
-      connections: []
-      _direction: 0
-      _connectionType: 1
       _typeConstraint: 0
       _dynamic: 0
     - _fieldName: sSmoothness
@@ -789,16 +675,6 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-    - _fieldName: sRandomness
-      _node: {fileID: -3188901079895547124}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      _nodePortType: float
-      connections: []
-      _direction: 0
-      _connectionType: 1
-      _typeConstraint: 0
-      _dynamic: 0
     - _fieldName: out_distance
       _node: {fileID: -3188901079895547124}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
@@ -814,10 +690,7 @@ MonoBehaviour:
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       _nodePortType: vector4
-      connections:
-      - fieldName: sFloatFac
-        node: {fileID: 6835834254771106590}
-        reroutePoints: []
+      connections: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
@@ -891,44 +764,16 @@ MonoBehaviour:
   ports:
     keys:
     - sFac
-    - sColor1
-    - sColor2
     - out_color
     values:
     - _fieldName: sFac
       _node: {fileID: -2652597128706693060}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      _nodePortType: float
+      _nodePortType: 
       connections: []
       _direction: 0
-      _connectionType: 1
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: sColor1
-      _node: {fileID: -2652597128706693060}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      _nodePortType: vector4
-      connections:
-      - fieldName: Result
-        node: {fileID: -6821671694308902052}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 1
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: sColor2
-      _node: {fileID: -2652597128706693060}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      _nodePortType: vector4
-      connections:
-      - fieldName: Result_Col
-        node: {fileID: 5604682293697271978}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 1
+      _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
     - _fieldName: out_color
@@ -936,10 +781,7 @@ MonoBehaviour:
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       _nodePortType: vector4
-      connections:
-      - fieldName: sVector
-        node: {fileID: -3188901079895547124}
-        reroutePoints: []
+      connections: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
@@ -980,31 +822,14 @@ MonoBehaviour:
   position: {x: -2712.4314, y: -484.48993}
   ports:
     keys:
-    - sFloatFac
     - Result
     values:
-    - _fieldName: sFloatFac
-      _node: {fileID: -2334204804449038583}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      _nodePortType: float
-      connections:
-      - fieldName: out_color
-        node: {fileID: -1535433258131814301}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 1
-      _typeConstraint: 0
-      _dynamic: 0
     - _fieldName: Result
       _node: {fileID: -2334204804449038583}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       _nodePortType: vector4
-      connections:
-      - fieldName: sFloatFac
-        node: {fileID: 7039965049505887478}
-        reroutePoints: []
+      connections: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
@@ -1051,11 +876,8 @@ MonoBehaviour:
   ports:
     keys:
     - sW
-    - sVector
-    - sScale
     - sSmoothness
     - sExponent
-    - sRandomness
     - out_distance
     - out_color
     - out_position
@@ -1070,29 +892,6 @@ MonoBehaviour:
       connections: []
       _direction: 0
       _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: sVector
-      _node: {fileID: -1535433258131814301}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      _nodePortType: vector3
-      connections:
-      - fieldName: out_color
-        node: {fileID: 6228118395340802519}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 1
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: sScale
-      _node: {fileID: -1535433258131814301}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      _nodePortType: float
-      connections: []
-      _direction: 0
-      _connectionType: 1
       _typeConstraint: 0
       _dynamic: 0
     - _fieldName: sSmoothness
@@ -1115,16 +914,6 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-    - _fieldName: sRandomness
-      _node: {fileID: -1535433258131814301}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      _nodePortType: float
-      connections: []
-      _direction: 0
-      _connectionType: 1
-      _typeConstraint: 0
-      _dynamic: 0
     - _fieldName: out_distance
       _node: {fileID: -1535433258131814301}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
@@ -1140,10 +929,7 @@ MonoBehaviour:
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       _nodePortType: vector4
-      connections:
-      - fieldName: sFloatFac
-        node: {fileID: -2334204804449038583}
-        reroutePoints: []
+      connections: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
@@ -1270,13 +1056,7 @@ MonoBehaviour:
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       _nodePortType: vector3
-      connections:
-      - fieldName: sColor1
-        node: {fileID: 6228118395340802519}
-        reroutePoints: []
-      - fieldName: sVector
-        node: {fileID: -4058400464666635468}
-        reroutePoints: []
+      connections: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
@@ -1310,22 +1090,9 @@ MonoBehaviour:
   position: {x: -2327.3618, y: -127.08405}
   ports:
     keys:
-    - sFloatFac
     - Result
+    - sFloatFac
     values:
-    - _fieldName: sFloatFac
-      _node: {fileID: -284731044448286270}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      _nodePortType: float
-      connections:
-      - fieldName: Result
-        node: {fileID: 6835834254771106590}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 1
-      _typeConstraint: 0
-      _dynamic: 0
     - _fieldName: Result
       _node: {fileID: -284731044448286270}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
@@ -1336,6 +1103,16 @@ MonoBehaviour:
         node: {fileID: -5108549353196572501}
         reroutePoints: []
       _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: sFloatFac
+      _node: {fileID: -284731044448286270}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      _nodePortType: 
+      connections: []
+      _direction: 0
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
@@ -1483,13 +1260,7 @@ MonoBehaviour:
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       _nodePortType: vector3
-      connections:
-      - fieldName: sColor1
-        node: {fileID: 4071617249745488685}
-        reroutePoints: []
-      - fieldName: sVector
-        node: {fileID: 7546577150648873785}
-        reroutePoints: []
+      connections: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
@@ -1557,44 +1328,18 @@ MonoBehaviour:
   ports:
     keys:
     - sFac
+    - out_color
     - sColor1
     - sColor2
-    - out_color
     values:
     - _fieldName: sFac
       _node: {fileID: 4071617249745488685}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      _nodePortType: float
+      _nodePortType: 
       connections: []
       _direction: 0
-      _connectionType: 1
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: sColor1
-      _node: {fileID: 4071617249745488685}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      _nodePortType: vector4
-      connections:
-      - fieldName: Result
-        node: {fileID: 781394586202928684}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 1
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: sColor2
-      _node: {fileID: 4071617249745488685}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      _nodePortType: vector4
-      connections:
-      - fieldName: Result_Col
-        node: {fileID: 7546577150648873785}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 1
+      _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
     - _fieldName: out_color
@@ -1607,6 +1352,26 @@ MonoBehaviour:
         node: {fileID: -5131818884563589079}
         reroutePoints: []
       _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: sColor1
+      _node: {fileID: 4071617249745488685}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      _nodePortType: 
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: sColor2
+      _node: {fileID: 4071617249745488685}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      _nodePortType: 
+      connections: []
+      _direction: 0
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
@@ -1646,26 +1411,36 @@ MonoBehaviour:
   position: {x: -3340.8428, y: 173.255}
   ports:
     keys:
-    - sFac
     - sW
-    - sDetail
-    - sRough
     - sDistort
-    - sVector
+    - sRough
+    - sDetail
+    - sFac
     - Result
     - Result_Col
+    - sVector
     values:
-    - _fieldName: sFac
+    - _fieldName: sW
       _node: {fileID: 5604682293697271978}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      _nodePortType: float
+      _nodePortType: 
       connections: []
       _direction: 0
-      _connectionType: 1
+      _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-    - _fieldName: sW
+    - _fieldName: sDistort
+      _node: {fileID: 5604682293697271978}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      _nodePortType: 
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: sRough
       _node: {fileID: 5604682293697271978}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
@@ -1679,43 +1454,20 @@ MonoBehaviour:
       _node: {fileID: 5604682293697271978}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      _nodePortType: float
+      _nodePortType: 
       connections: []
       _direction: 0
-      _connectionType: 1
+      _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-    - _fieldName: sRough
+    - _fieldName: sFac
       _node: {fileID: 5604682293697271978}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      _nodePortType: float
+      _nodePortType: 
       connections: []
       _direction: 0
-      _connectionType: 1
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: sDistort
-      _node: {fileID: 5604682293697271978}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      _nodePortType: float
-      connections: []
-      _direction: 0
-      _connectionType: 1
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: sVector
-      _node: {fileID: 5604682293697271978}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      _nodePortType: vector3
-      connections:
-      - fieldName: Result
-        node: {fileID: -6821671694308902052}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 1
+      _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
     - _fieldName: Result
@@ -1733,11 +1485,18 @@ MonoBehaviour:
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       _nodePortType: vector4
-      connections:
-      - fieldName: sColor2
-        node: {fileID: -2652597128706693060}
-        reroutePoints: []
+      connections: []
       _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: sVector
+      _node: {fileID: 5604682293697271978}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      _nodePortType: 
+      connections: []
+      _direction: 0
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
@@ -1795,10 +1554,7 @@ MonoBehaviour:
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       _nodePortType: vector3
-      connections:
-      - fieldName: sVector
-        node: {fileID: -6821671694308902052}
-        reroutePoints: []
+      connections: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
@@ -1858,44 +1614,18 @@ MonoBehaviour:
   ports:
     keys:
     - sFac
+    - out_color
     - sColor1
     - sColor2
-    - out_color
     values:
     - _fieldName: sFac
       _node: {fileID: 6228118395340802519}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      _nodePortType: float
+      _nodePortType: 
       connections: []
       _direction: 0
-      _connectionType: 1
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: sColor1
-      _node: {fileID: 6228118395340802519}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      _nodePortType: vector4
-      connections:
-      - fieldName: Result
-        node: {fileID: -972717757907489961}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 1
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: sColor2
-      _node: {fileID: 6228118395340802519}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      _nodePortType: vector4
-      connections:
-      - fieldName: Result_Col
-        node: {fileID: -4058400464666635468}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 1
+      _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
     - _fieldName: out_color
@@ -1903,11 +1633,28 @@ MonoBehaviour:
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       _nodePortType: vector4
-      connections:
-      - fieldName: sVector
-        node: {fileID: -1535433258131814301}
-        reroutePoints: []
+      connections: []
       _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: sColor1
+      _node: {fileID: 6228118395340802519}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      _nodePortType: 
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: sColor2
+      _node: {fileID: 6228118395340802519}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      _nodePortType: 
+      connections: []
+      _direction: 0
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
@@ -1994,22 +1741,9 @@ MonoBehaviour:
   position: {x: -2670.0117, y: -56.49781}
   ports:
     keys:
-    - sFloatFac
     - Result
+    - sFloatFac
     values:
-    - _fieldName: sFloatFac
-      _node: {fileID: 6835834254771106590}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      _nodePortType: float
-      connections:
-      - fieldName: out_color
-        node: {fileID: -3188901079895547124}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 1
-      _typeConstraint: 0
-      _dynamic: 0
     - _fieldName: Result
       _node: {fileID: 6835834254771106590}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
@@ -2020,6 +1754,16 @@ MonoBehaviour:
         node: {fileID: -284731044448286270}
         reroutePoints: []
       _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: sFloatFac
+      _node: {fileID: 6835834254771106590}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      _nodePortType: 
+      connections: []
+      _direction: 0
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
@@ -2085,10 +1829,7 @@ MonoBehaviour:
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       _nodePortType: vector3
-      connections:
-      - fieldName: sVector
-        node: {fileID: 781394586202928684}
-        reroutePoints: []
+      connections: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
@@ -2168,10 +1909,7 @@ MonoBehaviour:
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       _nodePortType: vector3
-      connections:
-      - fieldName: sVector
-        node: {fileID: -972717757907489961}
-        reroutePoints: []
+      connections: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
@@ -2230,31 +1968,14 @@ MonoBehaviour:
   position: {x: -2327.9666, y: -448.82138}
   ports:
     keys:
-    - sFloatFac
     - Result
     values:
-    - _fieldName: sFloatFac
-      _node: {fileID: 7039965049505887478}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      _nodePortType: float
-      connections:
-      - fieldName: Result
-        node: {fileID: -2334204804449038583}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 1
-      _typeConstraint: 0
-      _dynamic: 0
     - _fieldName: Result
       _node: {fileID: 7039965049505887478}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       _nodePortType: vector4
-      connections:
-      - fieldName: sColor1
-        node: {fileID: -5108549353196572501}
-        reroutePoints: []
+      connections: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
@@ -2300,26 +2021,35 @@ MonoBehaviour:
   position: {x: -3340.8428, y: 604.8845}
   ports:
     keys:
-    - sFac
     - sW
-    - sDetail
-    - sRough
     - sDistort
-    - sVector
+    - sRough
+    - sDetail
+    - sFac
     - Result
     - Result_Col
     values:
-    - _fieldName: sFac
+    - _fieldName: sW
       _node: {fileID: 7546577150648873785}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      _nodePortType: float
+      _nodePortType: 
       connections: []
       _direction: 0
-      _connectionType: 1
+      _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-    - _fieldName: sW
+    - _fieldName: sDistort
+      _node: {fileID: 7546577150648873785}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      _nodePortType: 
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: sRough
       _node: {fileID: 7546577150648873785}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
@@ -2333,43 +2063,20 @@ MonoBehaviour:
       _node: {fileID: 7546577150648873785}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      _nodePortType: float
+      _nodePortType: 
       connections: []
       _direction: 0
-      _connectionType: 1
+      _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-    - _fieldName: sRough
+    - _fieldName: sFac
       _node: {fileID: 7546577150648873785}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      _nodePortType: float
+      _nodePortType: 
       connections: []
       _direction: 0
-      _connectionType: 1
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: sDistort
-      _node: {fileID: 7546577150648873785}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      _nodePortType: float
-      connections: []
-      _direction: 0
-      _connectionType: 1
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: sVector
-      _node: {fileID: 7546577150648873785}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      _nodePortType: vector3
-      connections:
-      - fieldName: Result
-        node: {fileID: 781394586202928684}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 1
+      _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
     - _fieldName: Result
@@ -2387,10 +2094,7 @@ MonoBehaviour:
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       _nodePortType: vector4
-      connections:
-      - fieldName: sColor2
-        node: {fileID: 4071617249745488685}
-        reroutePoints: []
+      connections: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0

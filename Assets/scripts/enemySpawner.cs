@@ -30,11 +30,11 @@ public class enemySpawner : MonoBehaviour
 
         IEnumerator spawnEnemy()
         {
-            if (enemyCount < 5)
+            if (enemyCount < 7)
             {
-                xPos = Random.Range(3, -6);
-                zPos = Random.Range(3, -6);
-                newObject = Instantiate(enemy, new Vector3(xPos, 0.6f, zPos), Quaternion.identity);
+                xPos = Random.Range(-100, -81);
+                zPos = Random.Range(50, 80);
+                newObject = Instantiate(enemy, new Vector3(xPos, 0.53f, zPos), Quaternion.identity);
                 newObject.name = "name-" + num;
                 num++;
                 yield return new WaitForSeconds(2.5f);
