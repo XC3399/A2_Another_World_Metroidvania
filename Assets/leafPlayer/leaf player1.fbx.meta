@@ -18,7 +18,32 @@ ModelImporter:
   - first:
       74: -9047413930965350114
     second: idle1 31
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: black
+    second: {fileID: 2100000, guid: a7dd96cd767d18a408f4913315109265, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: body
+    second: {fileID: 2100000, guid: 48b1874861f9fa646bd3fd276eb60d62, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: brown wood
+    second: {fileID: 2100000, guid: f55432a34203fcc4a90b61bc3cd4607d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: crystal eevee
+    second: {fileID: 2100000, guid: 15a5edc65ae9f2a47b0be7e44fe9f6bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leaf
+    second: {fileID: 2100000, guid: 6124e94cbefaffc41aaf6fff6b39766a, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

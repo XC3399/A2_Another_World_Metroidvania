@@ -214,7 +214,7 @@ GameObject:
   - component: {fileID: 5698984352749628884}
   - component: {fileID: 5698984352749628882}
   - component: {fileID: 5698984352749628883}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: pedastallLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
