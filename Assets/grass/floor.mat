@@ -69,6 +69,30 @@ Material:
         m_Texture: {fileID: 8400000, guid: 91a5317308be5064cb6e1abde42f168d, type: 2}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _floorCustomFunction_37d22c96d66580bf99debd40f6b3c370_Gradient12888_13:
+        m_Texture: {fileID: 2800000, guid: 2b8b744f010b5ff448fbb15c92a2013a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _floorCustomFunction_37d22c96d66580bf99debd40f6b3c370_Gradient12896_14:
+        m_Texture: {fileID: 2800000, guid: 93ee22d41e3039b4eb432d531bdc579d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _floorCustomFunction_37d22c96d66580bf99debd40f6b3c370_Gradient12912_15:
+        m_Texture: {fileID: 2800000, guid: 9a2b5687c04b1264fb1413877c0e1cc9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _floorCustomFunction_37d22c96d66580bf99debd40f6b3c370_Gradient12932_16:
+        m_Texture: {fileID: 2800000, guid: 53dab96de16be1c44ad4a22b4cce7eeb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _floorCustomFunction_37d22c96d66580bf99debd40f6b3c370_Gradient12934_17:
+        m_Texture: {fileID: 2800000, guid: 8d8c5e8e1e585bc49984da9d17e9bdb2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _floorCustomFunction_37d22c96d66580bf99debd40f6b3c370_Gradient12936_18:
+        m_Texture: {fileID: 2800000, guid: 9e38135282620074db279491c9320e6d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
