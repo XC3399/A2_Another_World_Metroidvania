@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.3069224, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -467,6 +467,11 @@ PrefabInstance:
       propertyPath: _data._objectReferences.Array.data[0]
       value: 
       objectReference: {fileID: 149611216}
+    - target: {fileID: 3977273337032081710, guid: e51dce2188e573f4ab76d8d8d4d7fe97,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[5]
+      value: 
+      objectReference: {fileID: 246466360}
     - target: {fileID: 4319924933949078916, guid: e51dce2188e573f4ab76d8d8d4d7fe97,
         type: 3}
       propertyPath: m_Name
@@ -1516,13 +1521,15 @@ MonoBehaviour:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"player","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"spiderHealth","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"spiderDeathSounds","value":{"$content":[{"$content":1,"$type":"UnityEngine.Object"},{"$content":2,"$type":"UnityEngine.Object"},{"$content":3,"$type":"UnityEngine.Object"},{"$content":4,"$type":"UnityEngine.Object"}],"$type":"Unity.VisualScripting.AotList"},"typeHandle":{"Identification":"Unity.VisualScripting.AotList,
-      Unity.VisualScripting.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      Unity.VisualScripting.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"grassMask","value":{"$content":5,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 149611216}
     - {fileID: 8300000, guid: a05f4d1195ef62849a1fc479ed29ce1c, type: 3}
     - {fileID: 8300000, guid: 253561dddc889bf4f8c1fe718c49cd88, type: 3}
     - {fileID: 8300000, guid: 11b8dd2bd3d01b84a97c9b7ce45e3b3f, type: 3}
     - {fileID: 8300000, guid: 752145dbc1f99e543b3ad87cb0aa3af6, type: 3}
+    - {fileID: 246466360}
 --- !u!114 &150176001
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1978,6 +1985,11 @@ PrefabInstance:
       propertyPath: _data._objectReferences.Array.data[0]
       value: 
       objectReference: {fileID: 149611216}
+    - target: {fileID: 3977273337032081710, guid: e51dce2188e573f4ab76d8d8d4d7fe97,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[5]
+      value: 
+      objectReference: {fileID: 246466360}
     - target: {fileID: 4319924933949078916, guid: e51dce2188e573f4ab76d8d8d4d7fe97,
         type: 3}
       propertyPath: m_Name
@@ -2052,6 +2064,11 @@ PrefabInstance:
       propertyPath: _data._objectReferences.Array.data[0]
       value: 
       objectReference: {fileID: 149611216}
+    - target: {fileID: 3977273337032081710, guid: e51dce2188e573f4ab76d8d8d4d7fe97,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[5]
+      value: 
+      objectReference: {fileID: 246466360}
     - target: {fileID: 4319924933949078916, guid: e51dce2188e573f4ab76d8d8d4d7fe97,
         type: 3}
       propertyPath: m_Name
@@ -2229,14 +2246,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 246466360}
-  m_LocalRotation: {x: 0.6379583, y: 0.30497414, z: -0.30497414, w: 0.6379583}
-  m_LocalPosition: {x: -3.6599998, y: -6.73, z: -8.95}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -91.11, y: 0.00999999, z: -5.04}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 90, y: 51.1, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!212 &246466362
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2733,7 +2750,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   m_LocalRotation: {x: 0.35355338, y: 0.35355338, z: -0.1464466, w: 0.8535535}
-  m_LocalPosition: {x: -164.31, y: 14.102928, z: -20.950003}
+  m_LocalPosition: {x: -163.10002, y: 14.102928, z: -19.600002}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4428,7 +4445,7 @@ PrefabInstance:
     - target: {fileID: 3893294197879345259, guid: 64dce48905ffd9b4293e595fa6941544,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -155.31
+      value: -154.1
       objectReference: {fileID: 0}
     - target: {fileID: 3893294197879345259, guid: 64dce48905ffd9b4293e595fa6941544,
         type: 3}
@@ -4438,7 +4455,7 @@ PrefabInstance:
     - target: {fileID: 3893294197879345259, guid: 64dce48905ffd9b4293e595fa6941544,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -11.95
+      value: -10.6
       objectReference: {fileID: 0}
     - target: {fileID: 3893294197879345259, guid: 64dce48905ffd9b4293e595fa6941544,
         type: 3}
@@ -4770,7 +4787,8 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6982812146204527121, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
 --- !u!1 &664763484 stripped
 GameObject:
@@ -7674,42 +7692,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3977273337032081710, guid: e51dce2188e573f4ab76d8d8d4d7fe97,
         type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"player","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"spiderHealth","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"spiderDeathSounds","value":{"$content":[{"$content":1,"$type":"UnityEngine.Object"},{"$content":2,"$type":"UnityEngine.Object"},{"$content":3,"$type":"UnityEngine.Object"},{"$content":4,"$type":"UnityEngine.Object"}],"$type":"Unity.VisualScripting.AotList"},"typeHandle":{"Identification":"Unity.VisualScripting.AotList,
-        Unity.VisualScripting.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
-    - target: {fileID: 3977273337032081710, guid: e51dce2188e573f4ab76d8d8d4d7fe97,
-        type: 3}
-      propertyPath: _data._objectReferences.Array.size
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3977273337032081710, guid: e51dce2188e573f4ab76d8d8d4d7fe97,
-        type: 3}
       propertyPath: _data._objectReferences.Array.data[0]
       value: 
       objectReference: {fileID: 149611216}
     - target: {fileID: 3977273337032081710, guid: e51dce2188e573f4ab76d8d8d4d7fe97,
         type: 3}
-      propertyPath: _data._objectReferences.Array.data[1]
+      propertyPath: _data._objectReferences.Array.data[5]
       value: 
-      objectReference: {fileID: 8300000, guid: a05f4d1195ef62849a1fc479ed29ce1c, type: 3}
-    - target: {fileID: 3977273337032081710, guid: e51dce2188e573f4ab76d8d8d4d7fe97,
-        type: 3}
-      propertyPath: _data._objectReferences.Array.data[2]
-      value: 
-      objectReference: {fileID: 8300000, guid: 253561dddc889bf4f8c1fe718c49cd88, type: 3}
-    - target: {fileID: 3977273337032081710, guid: e51dce2188e573f4ab76d8d8d4d7fe97,
-        type: 3}
-      propertyPath: _data._objectReferences.Array.data[3]
-      value: 
-      objectReference: {fileID: 8300000, guid: 11b8dd2bd3d01b84a97c9b7ce45e3b3f, type: 3}
-    - target: {fileID: 3977273337032081710, guid: e51dce2188e573f4ab76d8d8d4d7fe97,
-        type: 3}
-      propertyPath: _data._objectReferences.Array.data[4]
-      value: 
-      objectReference: {fileID: 8300000, guid: 752145dbc1f99e543b3ad87cb0aa3af6, type: 3}
+      objectReference: {fileID: 246466360}
     - target: {fileID: 3977273337185447892, guid: e51dce2188e573f4ab76d8d8d4d7fe97,
         type: 3}
       propertyPath: m_Layer
@@ -9133,7 +9123,7 @@ PrefabInstance:
     - target: {fileID: 2070925441746177912, guid: a1a802ecaf6775746bb2a929fb554ad8,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -164.31
+      value: -163.10002
       objectReference: {fileID: 0}
     - target: {fileID: 2070925441746177912, guid: a1a802ecaf6775746bb2a929fb554ad8,
         type: 3}
@@ -9143,7 +9133,7 @@ PrefabInstance:
     - target: {fileID: 2070925441746177912, guid: a1a802ecaf6775746bb2a929fb554ad8,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -20.950003
+      value: -19.600002
       objectReference: {fileID: 0}
     - target: {fileID: 2070925441746177912, guid: a1a802ecaf6775746bb2a929fb554ad8,
         type: 3}
@@ -10701,6 +10691,11 @@ PrefabInstance:
       propertyPath: _data._objectReferences.Array.data[0]
       value: 
       objectReference: {fileID: 149611216}
+    - target: {fileID: 3977273337032081710, guid: e51dce2188e573f4ab76d8d8d4d7fe97,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[5]
+      value: 
+      objectReference: {fileID: 246466360}
     - target: {fileID: 4319924933949078916, guid: e51dce2188e573f4ab76d8d8d4d7fe97,
         type: 3}
       propertyPath: m_Name
@@ -12955,7 +12950,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1991433108}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -152.86798, y: 0.1, z: 87.41051}
+  m_LocalPosition: {x: -158.7, y: 0.1, z: 85.5}
   m_LocalScale: {x: 5.75, y: 13.270252, z: 3.7196517}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -19535,12 +19530,13 @@ PrefabInstance:
       value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"player","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"spiderHealth","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"spiderDeathSounds","value":{"$content":[{"$content":1,"$type":"UnityEngine.Object"},{"$content":2,"$type":"UnityEngine.Object"},{"$content":3,"$type":"UnityEngine.Object"},{"$content":4,"$type":"UnityEngine.Object"}],"$type":"Unity.VisualScripting.AotList"},"typeHandle":{"Identification":"Unity.VisualScripting.AotList,
-        Unity.VisualScripting.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+        Unity.VisualScripting.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"grassMask","value":{"$content":5,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 3977273337032081710, guid: e51dce2188e573f4ab76d8d8d4d7fe97,
         type: 3}
       propertyPath: _data._objectReferences.Array.size
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3977273337032081710, guid: e51dce2188e573f4ab76d8d8d4d7fe97,
         type: 3}
@@ -19551,7 +19547,7 @@ PrefabInstance:
         type: 3}
       propertyPath: _data._objectReferences.Array.data[1]
       value: 
-      objectReference: {fileID: 149611216}
+      objectReference: {fileID: 8300000, guid: a05f4d1195ef62849a1fc479ed29ce1c, type: 3}
     - target: {fileID: 3977273337032081710, guid: e51dce2188e573f4ab76d8d8d4d7fe97,
         type: 3}
       propertyPath: _data._objectReferences.Array.data[2]
@@ -19567,6 +19563,11 @@ PrefabInstance:
       propertyPath: _data._objectReferences.Array.data[4]
       value: 
       objectReference: {fileID: 8300000, guid: 752145dbc1f99e543b3ad87cb0aa3af6, type: 3}
+    - target: {fileID: 3977273337032081710, guid: e51dce2188e573f4ab76d8d8d4d7fe97,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[5]
+      value: 
+      objectReference: {fileID: 246466360}
     - target: {fileID: 4319924933949078916, guid: e51dce2188e573f4ab76d8d8d4d7fe97,
         type: 3}
       propertyPath: m_Name

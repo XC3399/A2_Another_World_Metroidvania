@@ -2520,8 +2520,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.6312145, y: 1.5804974, z: 1.6988064}
-  m_Center: {x: 0, y: 0.2902487, z: 0.8236279}
+  m_Size: {x: 1.6312145, y: 1.5804974, z: 1.299436}
+  m_Center: {x: 0, y: 0.2902487, z: 0.6239427}
 --- !u!54 &3977273337185447889
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3045,13 +3045,15 @@ MonoBehaviour:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"player","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"spiderHealth","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"spiderDeathSounds","value":{"$content":[{"$content":1,"$type":"UnityEngine.Object"},{"$content":2,"$type":"UnityEngine.Object"},{"$content":3,"$type":"UnityEngine.Object"},{"$content":4,"$type":"UnityEngine.Object"}],"$type":"Unity.VisualScripting.AotList"},"typeHandle":{"Identification":"Unity.VisualScripting.AotList,
-      Unity.VisualScripting.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      Unity.VisualScripting.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"grassMask","value":{"$content":5,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 0}
     - {fileID: 8300000, guid: a05f4d1195ef62849a1fc479ed29ce1c, type: 3}
     - {fileID: 8300000, guid: 253561dddc889bf4f8c1fe718c49cd88, type: 3}
     - {fileID: 8300000, guid: 11b8dd2bd3d01b84a97c9b7ce45e3b3f, type: 3}
     - {fileID: 8300000, guid: 752145dbc1f99e543b3ad87cb0aa3af6, type: 3}
+    - {fileID: 0}
 --- !u!114 &3977273337032081711
 MonoBehaviour:
   m_ObjectHideFlags: 0
